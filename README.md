@@ -46,7 +46,13 @@ The installation should take some minutes, grab a cup of coffee and return to th
 
 ![Vue Cli](/Documentation/vue-cli.png)
 
+In a terminal, run:
 
+> npm run serve
+
+Open the url [localhost:8080](http://localhost:8080) or the one pointed at the terminal, if everything is right, the vue demo it's running!
+
+![Vue Demo](/Documentation/vue-running.png)
 
 ### Fractal
 
