@@ -52,7 +52,7 @@ In a terminal, run:
 
 Open the url [localhost:8080](http://localhost:8080) or the one pointed at the terminal, if everything is right, the vue demo it's running!
 
-![Vue Demo](/Documentation/vue-running.png)
+<img src="/Documentation/vue-running.png" width="100px" height="auto">
 
 ### Fractal
 
