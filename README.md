@@ -13,11 +13,9 @@
 
 > npm install --save @frctl/fractal
 
-[TL;DR Fractal Installation](https://fractal.build/guide/getting-started.html#the-tl-dr-method)
+Follow the steps on the link bellow to install it quickly. The default values are good to go.
 
-Follow the steps on the link above to install it quickly. The default values are good to go.
-
-
+> [TL;DR Fractal Installation](https://fractal.build/guide/getting-started.html#the-tl-dr-method)
 
 
 ### Tailwind
