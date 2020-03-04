@@ -1,0 +1,40 @@
+{
+  "name": "tailwind-fractal-vue-boilerplate",
+  "version": "1.0.0",
+  "main": "fractal.js",
+  "dependencies": {
+    "@frctl/fractal": "^1.2.1",
+    "vue": "^2.6.11"
+  },
+  "scripts": {
+    "test": "npm run test"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.1",
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/register": "^7.8.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-olivio/fractal-css.git"
+  },
+  "keywords": [
+    "fractal",
+    "tailwind",
+    "build",
+    "css",
+    "sass",
+    "atomic",
+    "design",
+    "mobile",
+    "first"
+  ],
+  "fractal": {
+    "main": "fractal.js"
+  }
+}
