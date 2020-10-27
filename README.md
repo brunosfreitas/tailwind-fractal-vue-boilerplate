@@ -60,3 +60,16 @@ We also need a watcher for JS and CSS file changes, we followed the same approac
 
 
 ### Tailwind
+
+First of all, add tailwindcss to your dependencies 
+
+> npm install tailwindcss
+
+Then create your custom config file, there is a task for it
+
+> npx tailwindcss init
+
+After that we proceed add [tailwind to gulp](https://tailwindcss.com/docs/installation#gulp), and as noted here, we need gulp-postcss.
+
+> npm install --save gulp-postcss
+
