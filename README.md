@@ -73,3 +73,7 @@ After that we proceed add [tailwind to gulp](https://tailwindcss.com/docs/instal
 
 > npm install --save gulp-postcss
 
+### Layout References
+
+https://codepen.io/Gthibaud/pen/MqpmXE
+
