@@ -12,18 +12,18 @@ function style() {
   return (
     gulp
       .src("src/**/*.scss")
-
-      // Use sass with the files found, and log any errors
-    //   .pipe(
-    //     postcss([
-    //       // ...
-    //       require("tailwindcss"),
-    //       require("autoprefixer")
-    //       // ...
-    //     ])
-    //   )
       .pipe(sass())
-      .on("error", sass.logError)
+      .on('error', function (err) {
+        console.log(err.message + ' on line ' + err.lineNumber + ' in file : ' + err.fileName);
+      })
+      .pipe(
+            postcss([
+              // ...
+              require('tailwindcss'),
+              require('autoprefixer'),
+              // ...
+            ])
+          )
       .pipe(
         rename({
           dirname: ""
@@ -32,7 +32,9 @@ function style() {
     //   .pipe(concat())
       // What is the destination for the compiled file?
       .pipe(gulp.dest("public"))
-      .on("error", gulp.logError)
+      .on('error', function (err) {
+        console.log(err.message + ' on line ' + err.lineNumber + ' in file : ' + err.fileName);
+      })
   );
 }
 
