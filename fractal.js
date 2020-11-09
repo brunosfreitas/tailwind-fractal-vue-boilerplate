@@ -16,7 +16,12 @@ const mandelbrot = require('@frctl/mandelbrot');
 
 // create a new instance with custom config options
 const myCustomisedTheme = mandelbrot({
-    skin: 'red',
+    skin: {
+        name: 'default',
+        accent: '#321d6f',
+        complement: '#ffffff',
+        links: '#158cba',
+    }
     // any other theme configuration values here
 });
 

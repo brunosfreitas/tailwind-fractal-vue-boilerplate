@@ -1,0 +1,7 @@
+{
+    "context": {
+        "title": "This component uses tailwind",
+        "subtitle": "This one also has a custom named color",
+        "subtitle-2": "Variant of above with breakpoint style"
+    }
+}

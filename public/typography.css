@@ -1,10 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 
-h1 {
+.heading_h1 {
+  /* Using tailwind classes under aplly */
   display: grid;
-  grid-gap: 1rem;
-  gap: 1rem;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  color: red;
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  --text-opacity: 1;
+  color: #321d6f;
+  color: rgba(50, 29, 111, var(--text-opacity));
+  /* things not available on tailwind, use simple CSS */
   font-size: 50px;
+}
+
+.heading_h2 {
+  /* Using tailwind classes under aplly */
+  display: grid;
+  grid-gap: 1.5rem;
+  gap: 1.5rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  --text-opacity: 1;
+  color: #F05D5E;
+  color: rgba(240, 93, 94, var(--text-opacity));
+  padding-top: 0.5rem;
+  /* things not available on tailwind, use simple CSS */
+  font-size: 30px;
+}
+
+@media (min-width: 1024px) {
+  .heading_h2 {
+    /* @apply text-gray-500; */
+  }
+}
+
+.heading_h2--gray {
+  --text-opacity: 1;
+  color: #000000;
+  color: rgba(0, 0, 0, var(--text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .heading_h2--gray {
+    --text-opacity: 1;
+    color: #a0aec0;
+    color: rgba(160, 174, 192, var(--text-opacity));
+  }
 }

@@ -1,8 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
 
-h1 {
-    @apply grid gap-4 grid-cols-3;
+.heading_h1 {
+    /* Using tailwind classes under aplly */
+    @apply grid gap-6 grid-cols-2 text-purple;
 
-    color: red;
+    /* things not available on tailwind, use simple CSS */
     font-size: 50px;
+}
+
+.heading_h2 {
+    /* Using tailwind classes under aplly */
+    @apply grid gap-6 grid-cols-2 text-tomato pt-2;
+
+    @screen lg{
+        /* @apply text-gray-500; */
+    }
+
+    /* things not available on tailwind, use simple CSS */
+    font-size: 30px;
+
+    &--gray {
+        @apply text-black;
+
+        @screen lg{
+            @apply text-gray;
+        }
+    }
 }

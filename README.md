@@ -7,21 +7,8 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+gulp develop
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
 
 
 ## Step by step - How to make your own
@@ -69,7 +56,7 @@ Then create your custom config file, there is a task for it
 
 > npx tailwindcss init
 
-After that we proceed add [tailwind to gulp](https://tailwindcss.com/docs/installation#gulp), and as noted here, we need gulp-postcss.
+After that we proceed add [tailwind to gulp](https://tailwindcss.com/docs/installation#gulp), and as noted here, we need gulp-postcss, so we add 2 entries on tasks/style.js one for tailwind, another for autoprefixer.
 
 > npm install --save gulp-postcss
 

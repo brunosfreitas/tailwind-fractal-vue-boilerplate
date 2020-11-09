@@ -2,14 +2,20 @@
 <html>
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link media="all" rel="stylesheet" href="{{ path '/bundle.css' }}">
     <title>Preview Layout</title>
 </head>
 <body>
 
-<!-- <b>This is the base template where everything will be added</b> -->
 
-{{{ yield }}}
 
+<!-- Vue -->
+<div id="root">
+    {{{ yield }}}
+</div>
+
+<!-- Scripts -->
+<script src="/bayer-bolgard/public/main.js"></script>
 </body>
 </html>

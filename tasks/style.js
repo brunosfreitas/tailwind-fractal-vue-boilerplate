@@ -20,7 +20,8 @@ function style() {
             postcss([
               // ...
               require('tailwindcss'),
-              require('autoprefixer'),
+              require('postcss-nesting'),
+              require('autoprefixer')
               // ...
             ])
           )

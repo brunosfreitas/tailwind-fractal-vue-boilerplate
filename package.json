@@ -7,7 +7,10 @@
     "@frctl/mandelbrot": "^1.5.1",
     "gulp-concat": "^2.6.1",
     "gulp-postcss": "^8.0.0",
-    "tailwindcss": "^1.9.6"
+    "postcss-import": "^13.0.0",
+    "postcss-nesting": "^7.0.1",
+    "tailwindcss": "^1.9.6",
+    "vue": "^2.6.12"
   },
   "scripts": {
     "test": "npm run test"
