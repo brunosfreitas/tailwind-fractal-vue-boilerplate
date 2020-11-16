@@ -1,5 +1,7 @@
 # tailwind-fractal-vue-boilerplate
 
+WIP - still needs to add VUE and JS into gulp process
+
 ## Project setup
 ```
 npm install
